@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/tabbar/tabbar-1/tabbar-1",
+    "pages/tabbar/tabbar-2/tabbar-2",
+    "pages/tabbar/tabbar-3/tabbar-3",
+    "pages/tabbar/tabbar-4/tabbar-4",
+    "pages/tabbar/tabbar-5/tabbar-5",
+    "components/cell"
+  ],
+  "subPackages": [
+    {
+      "root": "packageA",
+      "pages": [
+        "pages/userinfo",
+        "pages/companyinfo"
+      ]
+    },
+    {
+      "root": "packageB",
+      "pages": [
+        "pages/index",
+        "pages/personal",
+        "pages/company"
+      ]
+    }
+  ],
+  "window": {
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "color": "#676767",
+    "selectedColor": "#FF4B3F",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/tabbar-1/tabbar-1",
+        "iconPath": "static/img/tabbar/home.png",
+        "selectedIconPath": "static/img/tabbar/home_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-2/tabbar-2",
+        "iconPath": "static/img/tabbar/jiedan.png",
+        "selectedIconPath": "static/img/tabbar/jiedan_active.png",
+        "text": "接单"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-3/tabbar-3",
+        "iconPath": "static/img/tabbar/store.png",
+        "selectedIconPath": "static/img/tabbar/store_active.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-4/tabbar-4",
+        "iconPath": "static/img/tabbar/fadan.png",
+        "selectedIconPath": "static/img/tabbar/fadan_active.png",
+        "text": "发单"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-5/tabbar-5",
+        "iconPath": "static/img/tabbar/mine.png",
+        "selectedIconPath": "static/img/tabbar/mine_active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

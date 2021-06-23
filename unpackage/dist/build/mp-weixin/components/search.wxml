@@ -1,0 +1,1 @@
+<view class="{{['search-bar',(grey)?'grey':'']}}"><image class="search-icon" src="{{grey?'/static/img/icon-search-grey.png':'/static/img/icon-search.png'}}" mode="aspectFill"></image><input class="{{['search-form',(grey)?'grey':'']}}" type="text" placeholder="搜索你想要的宝贝" placeholder-class="{{grey?'placeholder-grey':'placeholder'}}"/><button class="search-btn">搜索</button></view>

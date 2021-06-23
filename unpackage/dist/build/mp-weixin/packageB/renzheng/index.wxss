@@ -1,0 +1,1 @@
+page{background-color:#f2f2f2}.content{background-color:#fff;min-height:100vh}.content .title{font-size:36rpx;font-weight:700;color:#333;line-height:1;padding:80rpx 0 66rpx;text-align:center;border-top:1rpx solid #838383}.content .nav-wrap{width:690rpx;margin:0 auto}.content .nav-wrap + .nav-wrap{margin-top:26rpx}.content .nav-wrap .nav-item{width:690rpx}
